@@ -235,7 +235,7 @@ int main(int argc, char* argv[]){
 	}
 
 	//Affichge c xoré
-	printf("bigC = %8x%8x%8x%8x\n",bigC[0],bigC[1],bigC[2],bigC[3]);
+	//printf("bigC = %8x%8x%8x%8x\n",bigC[0],bigC[1],bigC[2],bigC[3]);
 
 	uint32_t cipher[4] = {0,0,0,0};
 	cipher[0] = 0x0fd9e67a;
@@ -243,7 +243,7 @@ int main(int argc, char* argv[]){
 	cipher[2] = 0xa9dab76f;
 	cipher[3] = 0xa3abf00a;
 
-	// printf("s = %8x%8x%8x%8x\n",cipher[0],cipher[1],cipher[2],cipher[3]);
+	//printf("s = %8x%8x%8x%8x\n",cipher[0],cipher[1],cipher[2],cipher[3]);
 
 	//suppression des c du secret.
 	for(int j = 0;j < 4;j ++){
